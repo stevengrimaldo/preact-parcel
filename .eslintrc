@@ -1,0 +1,40 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "PWD": true,
+    "ENV": true,
+    "envMode": true,
+    "envUrls": true,
+    "document": true,
+    "window": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": [
+      2
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  }
+}
