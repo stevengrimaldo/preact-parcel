@@ -1,5 +1,5 @@
 {
-  "extends": "airbnb",
+  "extends": ["standard", "standard-preact"],
   "globals": {
     "PWD": true,
     "ENV": true,
@@ -21,20 +21,6 @@
     "sourceType": "module"
   },
   "rules": {
-    "indent": [
-      2
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ]
+    "jsx-quotes": [0, "prefer-double"]
   }
 }

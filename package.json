@@ -7,19 +7,21 @@
     "start": "parcel index.html --open"
   },
   "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "eslint-config-airbnb": "^16.1.0",
     "preact": "^8.2.7",
     "preact-compat": "^3.18.0",
+    "prop-types": "^15.6.1",
     "styled-components": "^3.2.5"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-preact": "^1.1.0",
-    "node-sass": "^4.8.3",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard-preact": "^1.1.6",
     "parcel-bundler": "^1.7.0"
   },
   "alias": {
